@@ -1,0 +1,7 @@
+# !/usr/bin/env bash 
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+
+ln -s ~/.config/i3/config $(pwd)/.i3
+ln -s ~/.zshrc $(pwd)/.zshrc
+ln -s ~/.vimrc $(pwd)/.vimrc
